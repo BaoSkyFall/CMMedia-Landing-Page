@@ -1,1155 +1,2052 @@
-@media (max-width: 767px) {
-  /* Default CSS */
-  .pt-100 {
-    padding-top: 50px;
-  }
-  .pb-70 {
-    padding-bottom: 20px;
-  }
-  .pb-100 {
-    padding-bottom: 50px;
-  }
-  p {
-    font-size: 16px;
-  }
-  .section-title {
-    text-align: center;
-  }
-  .section-title span {
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-  .section-title h2 {
-    font-size: 25px;
-  }
-  /*------------ Home Page One CSS Start ------------*/
-  /* Header CSS */
-  .header-area {
-    text-align: left !important;
-  }
-  .header-area .header-left ul {
-    text-align: center;
-  }
-  .header-area .header-left ul li {
-    margin-right: 8px;
-  }
-  .header-area .header-left ul li a {
-    font-size: 15px;
-  }
-  .header-area .header-left ul li a i {
-    margin-right: 0;
-  }
-  .header-area .header-right {
-    text-align: center;
-  }
-  .header-area .header-right .header-social li a i {
-    margin: 0 5px;
-  }
-  /* Navbar CSS */
-  .navbar-area .mobile-nav {
-    display: block;
-    position: relative;
-  }
-  .navbar-area .mobile-nav .navbar-nav {
-    height: 300px;
-    overflow-y: scroll;
-  }
-  .navbar-area .mobile-nav .logo {
-    position: absolute;
-    top: 11px;
-    left: 15px;
-    z-index: 99999;
-    max-width: 100px;
-  }
-  .navbar-area .mean-container .mean-bar {
-    background-color: #fff;
-    padding: 0;
-    -webkit-box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
-  }
-  .navbar-area .mean-container a.meanmenu-reveal {
-    padding: 15px 15px 0 0;
-    color: #0C2F50;
-  }
-  .navbar-area .mean-container a.meanmenu-reveal span {
-    background: #0C2F50;
-  }
-  .navbar-area .mobile-nav nav .navbar-nav .nav-item a {
-    color: #0C2F50;
-  }
-  .navbar-area .mobile-nav nav .navbar-nav .nav-item a i {
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Topbar Arae */
+  .top-bar-area .button {
     display: none;
   }
-  .navbar-area .main-nav {
-    display: none !important;
+
+  .breadcrumb-area {
+    padding: 100px 0;
   }
-  /* Banner CSS */
-  .banner-slider .banner-item {
-    height: 100%;
-    padding: 150px 0 150px;
+
+  .heading-left h2 {
+    margin-bottom: 30px;
   }
-  .banner-slider .banner-item .banner-text {
+
+  /* Banner */
+
+  .banner-area {
+    text-align: center;
+  }
+
+  body,
+  .banner-area,
+  .banner-area div {
+    height: auto;
+  }
+
+  .banner-area.inc-nav-box .content {
+    margin-top: 100px;
+  }
+
+  .banner-area .content {
+    padding: 120px 0;
+  }
+
+  .banner-area.top-pad-90 .content {
+    margin-top: 60px;
+  }
+
+  .banner-area.circle-bg .content {
+    padding-bottom: 50px;
+  }
+
+  .banner-area.circle-bg .thumb {
+    padding-left: 15px;
+    margin-bottom: 120px;
+  }
+
+  .banner-area.top-mar-150 .content {
+    margin-top: 90px;
+  }
+
+  .banner-area.double-items .thumb {
+    padding-left: 15px;
+    margin-top: 50px;
+  }
+
+  .banner-area .thumb.multi-items .thumb-box img:first-child {
+    margin-top: 0;
+  }
+
+  .banner-area .thumb.multi-items .thumb-box img:nth-child(2) {
+      top: 120px;
+  }
+
+  .banner-area .thumb.multi-items .thumb-box img:nth-child(3) {
+      top: 120px;
+  }
+
+  .banner-area .banner-items .content {
+    padding-top: 170px;
+  }
+
+  .banner-area .banner-box {
+    background: #ffffff;
+    margin: 0;
+    top: 0;
+    margin-top: 90px;
+  }
+
+  .banner-area.auto-height .banner-content {
+    padding-top: 0;
+  }
+
+  .banner-area.auto-height .banner-content .thumb img {
+    max-width: 100%;
+  }
+
+  .banner-area .banner-box::after {
+    display: none;
+  }
+
+  .banner-area.auto-height .banner-content {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+
+  .banner-area.auto-height .banner-content .content {
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 120px;
+    padding-top: 30px;
+  }
+
+  .banner-area.auto-height .banner-content .thumb {
+    position: relative;
+    bottom: 0;
+    margin-top: 0;
+  }
+
+  .banner-area .carousel-indicators {
+    width: 100%;
+    left: auto;
+    right: 15px;
+    bottom: 50px;
+  }
+
+  .banner-area .banner-items .content {
+    padding-top: 140px;
+    padding-bottom: 50px;
+  }
+
+  .bg-fixed {
+    background-attachment: inherit !important;
+  }
+
+  .banner-area.top-pad-50 .content {
+    padding-top: 180px;
     padding-bottom: 0;
   }
-  .banner-slider .banner-item .banner-text h1 {
-    font-size: 25px;
+
+  .banner-area.text-default .info {
+    padding-right: 15px;
   }
-  .banner-slider .banner-item .banner-text p {
-    font-size: 16px;
-  }
-  .banner-slider .banner-item .banner-text .banner-btn .default-btn {
-    font-size: 16px;
-    padding: 15px;
-    margin: 0 5px;
-  }
-  .banner-slider .owl-item.active h1 {
-    -webkit-animation: none;
-            animation: none;
-  }
-  .banner-slider .owl-item.active p {
-    -webkit-animation: none;
-            animation: none;
-  }
-  .banner-slider .owl-item.active .banner-btn {
-    -webkit-animation: none;
-            animation: none;
-  }
-  .banner-slider .owl-prev {
-    opacity: 1;
-    bottom: 0;
-    top: inherit;
-    left: -55px;
-    margin: auto !important;
-    bottom: 30px;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-  .banner-slider .owl-prev:hover {
-    left: -40px;
-  }
-  .banner-slider .owl-next {
-    top: inherit;
-    left: 0;
-    right: -55px;
-    margin: auto !important;
-    opacity: 1;
-    bottom: 30px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-  .banner-slider .owl-next:hover {
-    right: -40px;
-  }
-  .banner-slider:hover .owl-prev {
-    left: -55px;
-  }
-  .banner-slider:hover .owl-next {
-    right: -55px;
-  }
-  /* Feature CSS */
-  .features-section {
+
+  .blue .banner-area .form-info {
     margin-top: 50px;
   }
-  .features-section .feature-card {
-    padding: 25px;
-    text-align: center;
-  }
-  .features-section .feature-card i {
-    margin-bottom: 25px;
-  }
-  /* About CSS */
-  .about-section {
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
-  .about-section .about-img {
-    margin-bottom: 20px;
-  }
-  .about-section .about-img::before, .about-section .about-img::after {
+
+  .blue .banner-area .form-info img {
     display: none;
   }
-  .about-section .about-text {
-    padding-left: 0;
-    text-align: center;
-  }
-  .about-section .about-text .nav-tabs .nav-item .nav-link {
-    margin: 0 15px;
-    font-size: 16px;
-  }
-  /* Transport System CSS */
-  .transport-section .transport-card .transport-img img {
-    width: 100%;
-  }
-  .transport-section .transport-card .transport-text {
-    padding: 40px 20px 30px;
-  }
-  .transport-section .transport-card .transport-text i {
-    top: -30px;
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    line-height: 50px;
-  }
-  .transport-section .transport-card .transport-text h3 {
-    font-size: 20px;
-  }
-  .transport-section .transport-card .transport-text p {
-    font-size: 17px;
-  }
-  /* Why Choose CSS */
-  .why-choose-section {
-    padding-top: 20px;
-  }
-  .why-choose-section .section-title {
+
+  /* About */
+
+  .about-area .thumb {
     margin-bottom: 30px;
   }
-  .why-choose-section .why-choose-text {
-    padding: 40px 15px 30px;
+
+  .about-area .about-items .content {
+    padding-left: 0;
   }
-  .why-choose-section .why-choose-text .accordions .accordion-item {
+
+  .about-area .about-items .content-inner::after {
+    width: 200%;
+    right: -50%;
+  }
+
+  .about-area .about-items .content-inner {
+    padding: 50px 0;
+  }
+
+  .about-area .about-items .content-inner .video-play-button {
+    display: none;
+  }
+
+  .about-area .content ul {
+    padding: 0;
     margin-bottom: 15px;
   }
-  .why-choose-section .why-choose-text .accordions .accordion-item .accordion-title {
-    padding: 15px 20px 10px 55px;
+
+  .about-area .about-items .content-inner h2 {
+    margin: 0;
   }
-  .why-choose-section .why-choose-text .accordions .accordion-item .accordion-title i {
-    top: 12px;
+
+  .about-content-area ul.achivement {
+    margin: auto;
   }
-  .why-choose-section .why-choose-text .accordions .accordion-item .accordion-title h2 {
-    font-size: 16px;
-  }
-  .why-choose-section .why-choose-img .shipping-text {
-    border-radius: 0;
-    padding: 45px 30px;
-    position: relative;
-    top: 0;
-    right: 0;
-  }
-  /* Get Quote CSS */
-  .get-quote-section .quote-text {
-    padding-right: 0;
-    margin-bottom: 30px;
-  }
-  .get-quote-section .quote-text .offer-text span {
-    font-size: 16px;
-  }
-  .get-quote-section .quote-text .offer-text p {
-    padding-left: 15px;
-    font-size: 16px;
-  }
-  .get-quote-section .quote-text h2 {
-    font-size: 22px;
-    line-height: 1.5;
-  }
-  .get-quote-section .quote-form h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
-  .get-quote-section .quote-form .pr-0 {
-    padding-right: 15px !important;
-  }
-  .get-quote-section .quote-form form button {
-    font-size: 17px;
-    padding: 10px 20px;
-    width: 100%;
-  }
-  /* Worker CSS */
-  .worker-section .worker-card .worker-img img {
-    width: 100%;
-  }
-  /* Testimonial CSS */
-  .feedback-section {
-    padding-bottom: 150px;
-  }
-  .feedback-section .feedback-slider .owl-prev {
-    left: 30px;
-    opacity: 1;
-    top: inherit;
-    bottom: -100px;
-    right:inherit;
-  }
-  .feedback-section .feedback-slider .owl-next {
-    top: inherit;
-    right: 30px;
-    opacity: 1;
-    bottom: -100px;
-  }
-  .feedback-section .feedback-slider:hover .owl-next {
-    right: 30px;
-  }
-  .feedback-section .feedback-slider:hover .owl-prev {
-    left: 30px;
-  }
-  /* Company CSS */
-  .company-section {
+
+  .about-content-area .top-info {
     margin-top: 50px;
   }
-  /* Blog CSS */
-  .blog-section .blog-card .blog-img img {
-    width: 100%;
-  }
-  .blog-section .blog-card .blog-text {
-    padding: 22px;
-  }
-  .blog-section .blog-card .blog-text h3 {
-    font-size: 20px;
-  }
-  /* Newsletter CSS */
-  .newsletter-section {
+
+  .about-us-content .thumb {
+    text-align: center;
+    padding-right: 15px;
     margin-bottom: 50px;
   }
-  .newsletter-section .newsletter-area {
-    padding: 15px;
+
+  .about-us-content .thumb img {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .about-us-content .experience .left-content {
+    min-width: 265px;
+  }
+
+
+  /* Work Process */
+  .process-list-items .item::after {
+    transform: rotate(-20deg);
+  }
+
+  .process-list-items .single-item:first-child .item::after, 
+  .process-list-items .single-item .item:hover::after {
+    transform: rotate(-44deg);
+}
+
+
+  /* Fun Factor Area */
+  .fun-fact-area .inner-items .item {
+    margin-top: 50px;
+  }
+
+  .fun-fact-area .inner-items .item:first-child, 
+  .fun-fact-area .inner-items .item:nth-child(2) {
+      margin-top: 0;
+  }
+
+
+  /* Faq */
+  .faq-area .faq-content {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+
+  /* Services */
+  .services-area .services-box {
     text-align: center;
   }
-  .newsletter-section .newsletter-area h2 {
-    font-size: 25px;
-    line-height: 1.4;
-  }
-  .newsletter-section .newsletter-area .newsletter-form {
-    text-align: center;
-  }
-  .newsletter-section .newsletter-area .newsletter-form .form-control {
-    height: 50px;
-    margin-bottom: 10px;
-  }
-  .newsletter-section .newsletter-area .newsletter-form .default-btn {
-    position: relative;
-    font-size: 16px;
-    padding: 8px 20px;
-    margin-bottom: 30px;
-    right: 0;
-  }
-  .newsletter-section img {
-    position: relative;
-    right: 0;
-    top: 0;
-    max-width: unset;
-    width: 100%;
-  }
-  /* Footer CSS */
-  .footer-area {
-    padding-top: 50px;
-  }
-  .footer-area .footer-widget img {
-    margin-bottom: 20px;
-    max-width: 120px;
-  }
-  .footer-area .footer-widget .footer-social {
-    margin-top: 25px;
-  }
-  .footer-area .footer-widget h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
-  }
-  .footer-area .footer-widget ul li {
-    margin-bottom: 5px;
-  }
-  .footer-area .copyright-area {
+
+  .services-area .services-box .services-items {
     margin-top: 20px;
   }
-  /*------------ Home Page One CSS End ------------*/
-  /*------------ Home Page Two CSS Start ------------*/
-  /* Banner CSS */
-  .banner-style-two {
-    height: 100% !important;
-    padding-top: 150px;
-    padding-bottom: 50px;
-  }
-  .banner-style-two .banner-text {
-    text-align: center !important;
-    padding-bottom: 50px;
-  }
-  .banner-style-two .banner-text h1 {
-    font-size: 30px;
-  }
-  .banner-style-two .banner-text .theme-btn .default-btn {
-    padding: 15px 20px;
-  }
-  .banner-style-two .quote-form {
-    margin-bottom: 30px;
-  }
-  .banner-style-two .quote-form form .form-check-inline {
-    margin-right: 10px;
-  }
-  .banner-style-two .quote-form form .form-check-inline .form-check-label {
-    font-size: 14px;
-  }
-  /* Transport CSS */
-  .transport-style-two {
-    margin-top: 50px;
-  }
-  /* Why Choose CSS */
-  .choose-style-two .why-choose-image {
-    margin-bottom: 30px;
-  }
-  .choose-style-two .choose-card h3 {
-    font-size: 18px;
-  }
-  /* Track Product CSS */
-  .track-product {
-    padding-bottom: 50px;
-  }
-  .track-product .track-text {
-    text-align: center;
-  }
-  .track-product .track-text h2 {
-    font-size: 25px;
-  }
-  .track-product .track-text .newsletter-form .form-control {
-    height: 50px;
-    margin-bottom: 10px;
-  }
-  .track-product .track-text .newsletter-form .default-btn {
-    position: relative;
-    padding: 5px 25px;
-    top: 0;
-  }
-  /* Facilities CSS */
-  .facilities-section .facilities-text h2 {
-    font-size: 25px;
-  }
-  .facilities-section .facilities-text ul {
-    margin-bottom: 25px;
-  }
-  .facilities-section .facilities-text ul li {
-    font-size: 17px;
-  }
-  .facilities-section .facilities-text .theme-btn {
-    margin-bottom: 30px;
-  }
-  .facilities-section .facilities-text .theme-btn .default-btn {
-    font-size: 16px;
-    padding: 15px 20px;
-  }
-  .facilities-section .facilities-img {
-    height: 250px;
-  }
-  /* Company CSS */
-  .company-style-two {
-    margin-top: 0;
-    padding-top: 0;
-  }
-  /* Blog Section CSS */
-  .blog-section .blog-card .blog-text p {
-    font-size: 17px;
-  }
-  /* Contact CSS */
-  .contact-section .contact-img {
-    height: 200px;
-    margin-bottom: 30px;
-  }
-  .contact-section .contact-area {
-    text-align: center;
-  }
-  .contact-section .contact-area h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
-  }
-  .contact-section .contact-area .form-group .form-control {
-    height: 50px;
-  }
-  .contact-section .contact-area .default-btn {
-    padding: 5px 20px 8px;
-  }
-  /* Newsletter CSS */
-  .newsletter-style-two {
-    margin-bottom: 0;
-    padding-bottom: 50px;
-  }
-  /*------------ Home Page Two CSS End ------------*/
-  /*------------ Home Page Three CSS Start ------------*/
-  /* Banner CSS */
-  .banner-style-three {
-    height: 100%;
-    padding: 150px 0 100px;
-  }
-  .banner-style-three .banner-text {
-    text-align: center !important;
-  }
-  .banner-style-three .banner-text h1 {
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-  .banner-style-three .banner-text .theme-btn {
-    margin-bottom: 15px;
-  }
-  .banner-style-three .banner-text .theme-btn .default-btn {
-    padding: 15px 15px;
-    font-size: 15px;
-  }
-  .banner-style-three .banner-image {
-    position: relative;
-    padding: 15px;
-  }
-  .banner-style-three .banner-shape {
-    display: none;
-  }
-  /* Testimonial CSS */
-  .feedback-style-three .feedback-slider-area .owl-next, .feedback-style-three .feedback-slider-area .owl-prev {
-    opacity: 1;
-    top: 35%;
-    width: 35px;
-    height: 35px;
-    font-size: 17px !important;
-    line-height: 35px !important;
-  }
-  .feedback-style-three .feedback-slider-area .owl-prev {
-    left: 0;
-  }
-  .feedback-style-three .feedback-slider-area .owl-prev:hover {
-    left: 0px;
-  }
-  .feedback-style-three .feedback-slider-area .owl-next {
-    right: 0;
-  }
-  .feedback-style-three .feedback-slider-area .owl-next:hover {
-    right: 0px;
-  }
-  .feedback-style-three .feedback-slider-area:hover .owl-next {
-    right: 0;
-  }
-  .feedback-style-three .feedback-slider-area:hover .owl-prev {
-    left: 0;
-  }
-  /*------------ Home Page Three CSS End ------------*/
-  /*------------ About Page CSS Start ------------*/
-  /* Page Title CSS */
-  .page-title {
-    padding-top: 150px;
-    padding-bottom: 100px;
-  }
-  .page-title .title-text h2 {
-    font-size: 30px;
-  }
-  /*  Why Choose CSS */
-  .why-choose-section .why-choose-text .accordions {
-    margin: auto;
-  }
-  /* Footer CSS */
-  .footer-area .lines .line {
-    left: 50%;
-  }
-  /*------------ About Page CSS End ------------*/
-  /*------------ Service Page Two CSS Start ------------*/
-  /* Transport CSS */
-  .transport-style-four .transport-card {
-    padding: 0;
-  }
-  .transport-style-four .transport-card a i {
-    width: 40px !important;
-    height: 40px !important;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-  /*------------ Service Page Two CSS End ------------*/
-  /*------------ Service Details Page CSS Start ------------*/
-  /* Service Details CSS */
-  .service-details-area .service-post-area .post-img img {
-    width: 100%;
-  }
-  .service-details-area .service-sidebar .service-features h3, .service-details-area .service-sidebar .contact-us h3, .service-details-area .service-sidebar .download-brochure h3 {
-    font-size: 20px;
-  }
-  .service-details-area .service-sidebar .service-features ul li, .service-details-area .service-sidebar .contact-us ul li, .service-details-area .service-sidebar .download-brochure ul li {
-    font-size: 15px;
-  }
-  /* Company CSS */
-  .company-style-three {
+
+  .services-area .services-box .item i {
     margin-top: 10px;
   }
-  /*------------ Service Details Page CSS End ------------*/
-  /*------------ 404 Page CSS Start ------------*/
-  .error-section::before {
+
+  .services-area .services-box .item i::after {
+    right: -15px;
+  }
+
+  .services-area .shape-fixed {
     display: none;
   }
-  .error-section h2 {
-    font-size: 35px;
-  }
-  /*------------ 404 Page CSS End ------------*/
-  /*------------ Contact Page CSS Start ------------*/
-  .contact-style-two .contact-area {
-    padding: 15px;
-  }
-  /*------------ Contact Page CSS End ------------*/
-  .blog-details-area .blog-sidebar .blog-widget .post-item .post-info {
-    padding-top: 0;
-  }
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Default CSS */
-  .pt-100 {
-    padding-top: 70px;
+  .services-area .services-box .item-grid:first-child {
+    margin-top: 0;
   }
-  .pb-70 {
-    padding-bottom: 40px;
-  }
-  .pb-100 {
-    padding-bottom: 70px;
-  }
-  p {
-    font-size: 16px;
-  }
-  .section-title {
+
+  .main-services-area {
     text-align: center;
   }
-  .section-title span {
+
+  .main-services-box {
+    margin-top: -50px;
+  }
+
+  .main-services-box .single-item {
+    margin-top: 50px;
+    border: none;
+  }
+
+  .main-services-box .item {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main-services-box .item .icon {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .services-list-items {
+    margin: 0;
+  }
+
+  .services-list-items .item {
+    border: none;
+    padding: 60px 35px;
+    background: #ffffff;
+    box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
+  }
+
+  .services-list-items .single-item {
+    margin-top: 50px;
+  }
+
+  .services-list-items .single-item:first-child,
+  .services-list-items .single-item:nth-child(2) {
+    margin-top: 0;
+  }
+
+  /* Services Details */
+  .services-details-items .services-sidebar {
+    padding-right: 15px;
+    margin-top: 50px;
+  }
+
+  .services-list-items .single-item:nth-child(2) .item,
+  .services-list-items .single-item:nth-child(4) .item,
+  .services-list-items .single-item:nth-child(6) .item {
+    border: none;
+  }
+
+
+  /* Project Details */
+  .project-details-area .project-info {
+    position: inherit;
+    left: auto;
+    right: auto;
+    top: auto;
+    width: 100%;
+    bottom: auto;
+    margin-top: 50px;
+  }
+
+  .project-details-area .top-info {
+    margin-bottom: 30px;
+  }
+
+
+  /* Our Features */
+  .our-features-area .featur-item .grid-item {
+    border: none;
+    padding-right: 15px;
+  }
+
+  .our-features-area .featur-item {
+    padding-right: 15px;
+    margin-top: 0;
+  }
+
+  .our-features-area .featur-item .grid-item .item {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .our-features-area .featur-item .grid-item:last-child {
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+  }
+
+  .our-features-area .featur-item .grid-item:last-child .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-features-area .featur-item .grid-item .item h4 {
+    justify-content: center;
+  }
+
+  .our-features-area .featur-item .grid-item .item h4 span {
+    display: none;
+  }
+
+  .our-features-area .featur-item .grid-item .item i {
+    margin-right: 0;
+    margin-top: 0;
     margin-bottom: 10px;
   }
-  .section-title h2 {
-    font-size: 30px;
+
+  .feature-area .single-item:nth-child(2), 
+  .feature-area .single-item:nth-child(3) {
+    margin-top: 0;
   }
-  /*------------ Home Page One CSS Start ------------*/
-  /* Header CSS */
-  .header-area .header-left ul li {
-    margin-right: 14px;
+
+  .our-features-area .features-box .single-item .item {
+    box-shadow: 0 0 10px #cccccc;
   }
-  .header-area .header-left ul li a {
-    font-size: 16px;
+
+  .dark-layout .our-features-area .features-box .single-item .item {
+    box-shadow: inherit;
+    background: #101c3d;
   }
-  .header-area .header-left ul li a i {
-    margin-right: 5px;
+
+  .our-features-area .features-box .single-item .item .content i {
+    opacity: 1;
+    padding-left: 20px;
   }
-  .header-area .header-right .header-social::before {
-    left: -10px;
+
+
+  /* Free Trial */
+  .free-trial-area {
+    padding-top: 120px;
   }
-  /* Navbar CSS */
-  .navbar-area .mobile-nav {
+
+  .free-trial-area ul {
     display: block;
-    position: relative;
+    overflow: hidden;
   }
-  .navbar-area .mobile-nav .navbar-nav {
-    height: 300px;
-    overflow-y: scroll;
+
+  .free-trial-area ul li {
+    float: left;
+    width: 50%;
   }
-  .navbar-area .mobile-nav .logo {
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    z-index: 99999;
-    max-width: 100px;
+
+  .free-trial-area .left-info h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 15px;
   }
-  .navbar-area .mean-container .mean-bar {
-    background-color: #fff;
-    padding: 0;
-    -webkit-box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+
+  .dark-layout .free-trial-area .left-info h2 {
+    text-shadow: inherit;
   }
-  .navbar-area .mean-container a.meanmenu-reveal {
-    padding: 15px 15px 0 0;
-    color: #0C2F50;
+
+  .free-trial-area .left-info h2 span {
+    font-size: 36px;
+    line-height: 1.2;
+    position: inherit;
+    margin: 0;
   }
-  .navbar-area .mean-container a.meanmenu-reveal span {
-    background: #0C2F50;
+
+  .free-trial-area .left-info {
+    padding-right: 15px;
   }
-  .navbar-area .mobile-nav nav .navbar-nav .nav-item a {
-    color: #0C2F50;
+
+  .free-trial-area::after {
+    background: transparent !important; 
   }
-  .navbar-area .mobile-nav nav .navbar-nav .nav-item a i {
-    display: none;
+
+  .free-trial-area .thumb {
+    margin-top: 50px;
+    text-align: center;
   }
-  .navbar-area .main-nav {
-    display: none !important;
+
+  /* Team Area */
+  .team-area .team-items .thumb .social li {
+    margin-top: 0;
+    display: inline-block;
   }
-  /* Banner CSS */
-  .banner-slider .banner-item {
-    height: 100%;
+
+  .team-area .team-items .thumb .social ul {
+    right: 50%;
+    transform: translateX(50%);
+    min-width: 80%;
+    bottom: -25px;
   }
-  .banner-slider .banner-item .banner-text {
-    padding-bottom: 100px;
-    padding-top: 150px;
+
+  .team-area .team-items .info {
+    padding-top: 50px;
   }
-  .banner-slider .banner-item .banner-text h1 {
-    font-size: 45px;
+
+  .team-area .team-items .single-item .item {
+    margin-right: 0;
+    margin-top: 0;
   }
-  .banner-slider .banner-item .banner-text p {
-    max-width: 565px;
+
+  .team-area .team-items .single-item:nth-child(2) .item,
+  .team-area .team-items .single-item:nth-child(5) .item {
+    margin: 0;
   }
-  .banner-slider .owl-prev {
-    opacity: 1;
-    top: 50%;
-    left: 30px;
-    margin: auto !important;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    font-size: 20px !important;
-    line-height: 40px !important;
+
+  .team-area .team-items .single-item:last-child .item,
+  .team-area .team-items .single-item:nth-child(3) .item {
+    margin-left: 0;
   }
-  .banner-slider .owl-prev:hover {
-    left: -40px;
-  }
-  .banner-slider .owl-next {
-    top: 50%;
-    right: 30px;
-    margin: auto !important;
-    opacity: 1;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-  .banner-slider .owl-next:hover {
-    right: -40px;
-  }
-  .banner-slider .owl-prev:hover {
-    left: 30px;
-  }
-  .banner-slider .owl-next:hover {
-    right: 30px;
-  }
-  /* Feature CSS */
-  .features-section {
-    margin-top: 70px;
-  }
-  /* About CSS */
-  .about-section {
-    padding-bottom: 70px;
-  }
-  .about-section .about-img {
-    margin-bottom: 30px;
-  }
-  .about-section .about-img::before {
-    display: none;
-  }
-  .about-section .about-img::after {
-    display: none;
-  }
-  .about-section .about-img img {
-    width: 100%;
-  }
-  .about-section .about-text {
-    padding-left: 0;
-  }
-  /* Why Choose CSS */
-  .why-choose-section .why-choose-text .section-title p {
-    margin: auto;
-  }
-  .why-choose-section .why-choose-img .shipping-text {
-    border-radius: 0;
-    padding: 45px 30px;
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 100%;
-  }
-  /* Get Qoute CSS */
-  .get-quote-section .theme-btn {
-    margin-bottom: 30px;
-  }
-  /* Worker Section CSS */
-  .worker-section .worker-card .worker-img img {
-    width: 100%;
-  }
-  /* Testimonial CSS */
-  .feedback-section {
-    padding-bottom: 70px;
-  }
-  .feedback-section .feedback-slider .owl-prev {
-    left: 30px;
-    opacity: 1;
-    top: 80px;
-  }
-  .feedback-section .feedback-slider .owl-next {
-    top: 80px;
-    right: 30px;
-    opacity: 1;
-  }
-  .feedback-section .feedback-slider:hover .owl-next {
-    right: 30px;
-  }
-  .feedback-section .feedback-slider:hover .owl-prev {
-    left: 30px;
-  }
-  /* Compnay CSS */
-  .company-section {
-    margin-top: 70px;
-  }
-  /* Newsletter CSS */
-  .newsletter-section {
-    margin-bottom: 70px;
-  }
-  .newsletter-section .newsletter-area .newsletter-form {
-    margin-bottom: 70px;
-  }
-  .newsletter-section img {
-    position: relative;
-    right: 0;
-    top: 0;
-    max-width: 100%;
-    margin: auto;
-    left: 0;
-  }
-  /* Footer CSS */
-  .footer-area {
-    padding-top: 70px;
-  }
-  .footer-area .footer-widget h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
-  }
-  .footer-area .copyright-area {
+
+  /* Team Single */
+  .team-single-area .right-info {
+    padding-left: 15px;
     margin-top: 40px;
   }
-  /*------------ Home Page One CSS End ------------*/
-  /*------------ Home Page Two CSS Start ------------*/
-  /* Banner CSS */
-  .banner-style-two {
-    height: 100% !important;
+
+  .team-single-area .thumb .social ul {
+    right: 30px;
+    bottom: -30px;
   }
-  .banner-style-two .banner-text {
-    text-align: center !important;
-    padding-top: 150px;
+
+  .team-single-area .bottom-info .about-area.reverse {
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+
+  /* Brand Area */
+
+  .brand-area {
+    text-align: center;
+  }
+
+  .brand-area .brand-items {
+    padding: 50px;
+  }
+
+  .dark-layout .brand-area .brand-items {
+    padding: 120px 0;
+  }
+
+  .brand-area .brand-items::after {
+    width: 100%;
+  }
+
+  .brand-area .brand-items .info {
+    padding-right: 15px;
+    border-right: none;
+    margin-bottom: 20px;
+  }
+
+  .brand-area .brand-items .brand {
+    padding-left: 15px;
+    margin-top: 0;
+  }
+
+  .brand-area .brand-items .brand .col-lg-4 {
+    float: left;
+    width: 33.3333%;
+  }
+
+
+  /* Boosting */
+
+  .boosting-area {
+    padding-top: 0;
+  }
+
+  .boosting-area .inner-items {
+    top: 0;
+    margin-bottom: 0;
+    padding: 50px;
+  }
+
+  .boosting-area .video {
+    display: none;
+  }
+
+  /* Choose Us Version Two */
+
+  .choose-us-area {
+    padding-top: 120px;
+  }
+
+  .choose-us-area .thumb {
+    height: 400px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .choose-us-area .info {
+    max-width: 100%;
+    padding-top: 0;
+    padding-left: 15px;
+  }
+
+
+  /* Partner */
+
+  .partner-area {
+    margin-top: -10px;
+  }
+
+  .partner-area .partner-items {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 120px;
+  }
+
+  .partner-area .partner-items::after {
+    display: none;
+  }
+
+  /* Pricing */
+
+  .pricing-area {
+    padding-bottom: 90px;
+  }
+
+  .pricing-area .pricing {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .pricing.pricing-simple .single-item {
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .pricing-item.active {
+    transform: inherit;
+    z-index: 1;
+  }
+
+  /* Portfolio */
+  .portfolio-area .portfolio-items.colums-2 .pf-item,
+  .portfolio-area .portfolio-items.colums-3 .pf-item,
+  .portfolio-area .portfolio-items.colums-4 .pf-item {
+    width: 50%;
+  }
+
+  .portfolio-items-area .mix-item-menu button {
+    margin: 10px;
+    border: 2px solid #e7e7e7;
+    padding: 10px 30px;
+  }
+
+  /* Blog */
+  .blog-area.left-sidebar .blog-content {
+    float: none;
+  }
+
+  .blog-area .blog-thin-colums .thumb {
+    margin-bottom: 30px;
+  }
+
+  .blog-area.left-sidebar .sidebar,
+  .blog-area.right-sidebar .sidebar {
+    margin-top: 50px;
+  }
+
+  .blog-area .blog-items .blog-thin-colums .item {
+    padding: 0;
+    border: none;
+  }
+
+  .blog-area.right-sidebar .sidebar {
+    padding-left: 15px;
+  }
+
+  .blog-area.left-sidebar .sidebar {
+    padding-right: 15px;
+  }
+
+  .blog-area .item .thumb img {
+    width: 100%;
+  }
+
+  /* Contact */
+
+  .contact-area .fixed-bg.left {
+    display: none;
+  }
+
+  .contact-area .contact-items ::after {
+    display: none;
+  }
+
+  .dark-layout .bg-gray.contact-area .contact-items::after {
+    display: none;
+  }
+
+  .dark-layout .contact-area .contact-items .form-items {
+    background: #0D152E;
+    box-shadow: inherit;
+  }
+
+  .contact-area .contact-items .form-items {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px #cccccc;
+  }
+
+  .contact-area .left-info ul.social {
+    text-align: center;
+  }
+
+  .contact-area .left-info .item {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-area .left-info .item i {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-area .left-info .social li {
+    margin: 0 10px;
+  }
+
+  .google-maps iframe {
+    height: 350px;
+  }
+
+  .contact-area .contact-items::after {
+    display: none;
+  }
+
+  /* Error Page */
+  .error-page-area,
+  .error-page-area div {
+    height: auto;
+  }
+
+  .error-page-area div.error-box {
+    position: inherit;
+    top: 0;
+    transform: inherit;
+  }
+
+  /* Footer */
+  footer .footer-bottom {
+    text-align: center;
+  }
+
+  footer .footer-bottom form {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    margin: 30px auto auto;
+  }
+
+  footer .footer-bottom .logo img {
+    margin-top: 30px;
+    display: none;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .default-padding {
+    padding-top: 50px;
     padding-bottom: 50px;
   }
-  .banner-style-two .banner-text h1 {
-    font-size: 40px;
+
+  .default-padding.bottom-less {
+    padding-bottom: 20px;
+    padding-top: 50px;
   }
-  .banner-style-two .banner-text .theme-btn {
+
+  .default-padding-bottom.bottom-less {
+    padding-bottom: 20px;
+  }
+
+  .default-padding-bottom {
+    padding-bottom: 50px;
+  }
+
+  .default-padding-top {
+    padding-top: 50px;
+  }
+
+  .site-heading {
     margin-bottom: 40px;
   }
-  .banner-style-two .banner-text .theme-btn .default-btn {
-    padding: 15px 20px;
+
+  .heading-center {
+    margin-bottom: 40px;
   }
-  .banner-style-two .quote-form {
-    margin-bottom: 50px;
+
+  .heading-side h5 {
+    padding-left: 0;
   }
-  /* About CSS */
-  .about-section {
-    padding-top: 40px;
+
+  .heading-side h5::after {
+    display: none;
   }
-  /* Transport CSS */
-  .transport-style-two {
+
+  .heading-left p {
+    margin-top: 15px;
+  }
+
+  .owl-carousel.owl-theme .owl-nav {
+    display: none;
+  }
+
+  /* Topbar */
+  .top-bar-area {
+    display: none;
+  }
+
+  nav.navbar .quote-btn {
+    display: none;
+  }
+
+  .side {
+    padding: 50px 50px 50px 35px;
+    width: 320px;
+  }
+
+  .side .close-side {
+    top: -20px;
+  }
+
+  .heading-center h2.text-invisible {
+    display: none;
+  }
+
+  .breadcrumb-area {
+    padding: 100px 0;
+  }
+
+  /* Banner Area */
+
+  .banner-area {
+    text-align: center;
+  }
+
+  .banner-area .content h2 {
+    font-size: 36px;
+  }
+
+  .banner-area .content p {
+    padding: 0;
+  }
+
+  body,
+  .banner-area,
+  .banner-area div {
+    height: auto;
+  }
+
+  .banner-area .content {
+    overflow: hidden;
+    padding: 80px 0;
+  }
+
+  .banner-area.top-mar-150 .content {
+    margin-top: 80px;
+  }
+
+  .banner-area.version-center .content h4 {
+    margin-bottom: 20px;
+  }
+
+  .banner-area.version-center .content h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .banner-area .fixed-social {
+    display: none;
+  }
+
+  .banner-area.top-pad-90 .content {
     margin-top: 70px;
   }
-  /* Why Choose CSS */
-  .choose-style-two .choose-card h3 {
-    font-size: 17px;
+
+  .banner-area.top-pad-130p .content {
+    padding-top: 160px;
+    padding-bottom: 80px;
   }
-  /* Track Product */
-  .track-product {
-    padding-bottom: 70px;
+
+  .banner-area.double-items .content h2 {
+    font-size: 36px;
   }
-  /* Facilities CSS */
-  .facilities-section .facilities-text .theme-btn {
-    margin-bottom: 30px;
+
+  .banner-area.double-items .thumb {
+    padding-left: 15px;
+    margin-top: 30px;
   }
-  .facilities-section .facilities-img {
-    height: 400px;
+
+  .banner-area.double-items .thumb img {
+    max-width: 70%;
   }
-  /* Company Section */
-  .company-style-two {
-    padding-top: 0;
+
+  .banner-area.circle-bg .content h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  .banner-area.circle-bg .thumb {
+    padding-left: 15px;
+    margin-bottom: 50px;
+  }
+
+  .banner-area .thumb.multi-items .thumb-box img:first-child {
     margin-top: 0;
-    padding-bottom: 70px;
   }
-  /* Contact CSS */
-  .contact-section .contact-img {
-    height: 400px;
+
+  .banner-area .thumb.multi-items .thumb-box img:nth-child(2),
+  .banner-area .thumb.multi-items .thumb-box img:nth-child(3) {
+      display: none;
+  }
+
+  .bg-fixed {
+    background-attachment: inherit !important;
+  }
+
+  .banner-area .shape {
+    display: none;
+  }
+
+  .banner-area .fixed-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner-area .fixed-bg::after {
+    display: none;
+  }
+
+  .banner-area .fixed-bg::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.5;
+  }
+
+  .text-light-mobile h2,
+  .text-light-mobile h3,
+  .text-light-mobile h4,
+  .text-light-mobile p,
+  .text-light-mobile a {
+    color: #ffffff;
+  }
+
+  .banner-area .banner-box {
+    background: #ffffff;
+    margin: 0;
+    top: 0;
+    margin-top: 90px;
+  }
+
+  .banner-area.auto-height .banner-content {
+    padding-top: 0;
+  }
+
+  .banner-area.auto-height .banner-content .thumb img {
+    max-width: 100%;
+  }
+
+  .banner-area .banner-box::after {
+    display: none;
+  }
+
+  .banner-area.auto-height .banner-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .banner-area.auto-height .banner-content .content {
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+
+  .banner-area.auto-height .banner-content .thumb {
+    position: relative;
+    bottom: 0;
+    margin-top: 0;
+  }
+
+  .banner-area .carousel-indicators {
+    width: 100%;
+    left: auto;
+    right: 15px;
+    bottom: 50px;
+  }
+
+  .banner-area .banner-items .content {
+    padding-top: 140px;
+    padding-bottom: 50px;
+  }
+
+  .banner-area.text-default .content h2 {
+    font-size: 36px;
+  }
+
+  .banner-area.top-pad-50 .content {
+    padding-top: 140px;
+    padding-bottom: 0;
+  }
+
+  .banner-area.text-default .info {
+    padding-right: 15px;
+  }
+
+  .blue .banner-area .form-info {
+    margin-top: 40px;
+  }
+
+  .banner-area .form-info img {
+    display: none;
+  }
+
+
+  /* Features Area */
+  .features-items .single-item:nth-child(2n) .item {
+    margin-top: 0;
+  }
+
+  /* About */
+
+  .dark-layout .about-content-area.default-padding-bottom {
+    padding-top: 50px;
+  }
+
+  .about-area .thumb {
     margin-bottom: 30px;
   }
-  /* Newsletter CSS */
-  .newsletter-style-two {
+
+  .about-area .about-items .content {
+    padding-left: 0;
+  }
+
+  .about-area .about-items .content-inner::after {
+    width: 200%;
+    right: -50%;
+  }
+
+  .about-area .about-items .content-inner {
+    padding: 50px 0;
+  }
+
+  .about-area .about-items .content-inner .video-play-button {
+    display: none;
+  }
+
+  .about-area .content ul {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .about-area .about-items .content-inner h2 {
+    margin: 0;
+  }
+
+  .about-content-area ul.achivement {
+    height: auto;
+    width: auto;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .about-content-area ul.achivement::after {
+    display: none;
+  }
+
+  .about-us-content .thumb {
+    padding-right: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about-us-content .thumb img {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .about-us-content .experience {
+    display: block;
+  }
+
+  .about-us-content .experience .left-content {
+    border: none;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  ul.achivement li:first-child,
+  ul.achivement li:nth-child(2),
+  ul.achivement li:nth-child(3) {
+    position: inherit;
+    top: inherit;
+    right: inherit;
+    left: inherit;
+    bottom: inherit;
+  }
+
+  ul.achivement li {
+    background: transparent !important;
+    width: auto;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+    display: block;
+  }
+
+   ul.achivement li:last-child {
     margin-bottom: 0;
-    padding-bottom: 70px;
+   }
+
+   .about-content-area .top-info {
+    margin-top: 30px;
+   }
+
+
+  /* Achivement */
+  .achivement-area .right-content {
+    margin-top: 30px;
   }
-  /* Footer CSS */
-  .footer-area .lines .line {
+
+
+  /* Process */
+  .process-list-items .item::after {
+    display: none;
+  }
+
+
+  /* Clients */
+  .clients-area .partner-carousel {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+
+  /* Video Area */
+  .video-area {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .video-area::after {
+    display: none;
+  }
+
+  .video-area .half-bg {
+    position: relative;
     left: 50%;
+    transform: translateX(-50%);
   }
-  /*------------ Home Page Two CSS End ------------*/
-  /*------------ Home Page Three CSS Start ------------*/
-  /* Banner CSS */
-  .banner-style-three {
-    height: 100%;
-    padding: 150px 0 100px;
+
+  .video-area .video-items {
+    margin-top: 80px;
   }
-  .banner-style-three .banner-text {
-    text-align: center !important;
+
+  .video-area .video-items .info {
+    padding-right: 0;
   }
-  .banner-style-three .banner-text h1 {
-    font-size: 45px;
+
+  /* Testimonials */
+  .testimonials-area .heading h2 {
     margin-bottom: 30px;
   }
-  .banner-style-three .banner-text .theme-btn {
-    margin-bottom: 20px;
-  }
-  .banner-style-three .banner-text .theme-btn .default-btn {
-    padding: 15px 15px;
-    font-size: 15px;
-  }
-  .banner-style-three .banner-image {
-    position: relative;
-    margin: auto;
-  }
-  .banner-style-three .banner-shape {
-    display: none;
-  }
-  /* Testimonial CSS */
-  .feedback-style-three .feedback-slider-area .owl-next, .feedback-style-three .feedback-slider-area .owl-prev {
-    opacity: 1;
-    top: 35%;
-    width: 35px;
-    height: 35px;
-    font-size: 17px !important;
-    line-height: 35px !important;
-  }
-  .feedback-style-three .feedback-slider-area .owl-prev {
-    left: 0;
-  }
-  .feedback-style-three .feedback-slider-area .owl-prev:hover {
-    left: 0px;
-  }
-  .feedback-style-three .feedback-slider-area .owl-next {
-    right: 0;
-  }
-  .feedback-style-three .feedback-slider-area .owl-next:hover {
-    right: 0px;
-  }
-  .feedback-style-three .feedback-slider-area:hover .owl-next {
-    right: 0;
-  }
-  .feedback-style-three .feedback-slider-area:hover .owl-prev {
-    left: 0;
-  }
-  /*------------ Home Page Three CSS End ------------*/
-  /*------------ About Page CSS Start ------------*/
-  .why-choose-section .why-choose-text .accordions {
-    margin: auto;
-  }
-  /*------------ About Page CSS End ------------*/
-}
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Default CSS */
-  .section-title h2 {
-    font-size: 35px;
+  /* Our Features */
+  .our-features-area .featur-item .grid-item {
+    border: none;
+    padding-right: 15px;
   }
-  /*------------ Home Page One CSS Start ------------*/
-  /* Header CSS */
-  .header-area .header-right .dropdown {
-    right: 40px;
-  }
-  .header-area .header-right .header-social::before {
-    left: -12px;
-  }
-  .header-area .header-right .header-social li a i {
-    font-size: 20px;
-    margin: 0 0 0 10px;
-  }
-  /* Banner CSS */
-  .banner-slider .banner-item {
-    height: 100%;
-  }
-  .banner-slider .banner-item .banner-text {
-    padding-bottom: 100px;
-    padding-top: 150px;
-  }
-  .banner-slider .banner-item .banner-text h1 {
-    font-size: 60px;
-  }
-  .banner-slider .banner-item .banner-text p {
-    max-width: 565px;
-  }
-  .banner-slider .owl-prev {
-    opacity: 1;
-    top: 50%;
-    left: 30px;
-    margin: auto !important;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-  .banner-slider .owl-prev:hover {
-    left: -40px;
-  }
-  .banner-slider .owl-next {
-    top: 50%;
-    right: 30px;
-    margin: auto !important;
-    opacity: 1;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-  .banner-slider .owl-next:hover {
-    right: -40px;
-  }
-  .banner-slider .owl-prev:hover {
-    left: 30px;
-  }
-  .banner-slider .owl-next:hover {
-    right: 30px;
-  }
-  /* Feature CSS */
-  .features-section {
-    margin-top: 100px;
-  }
-  .features-section .feature-card {
-    padding: 20px;
-  }
-  .features-section .feature-card span {
-    font-size: 18px;
-  }
-  .features-section .feature-card h3 {
-    font-size: 18px;
-  }
-  .features-section .feature-card p {
-    font-size: 17px;
-  }
-  /* About Section CSS */
-  .about-section {
-    padding-top: 70px;
-    padding-bottom: 100px;
-  }
-  /* Worker CSS */
-  .worker-section .worker-card .worker-text {
-    padding: 15px;
-  }
-  .worker-section .worker-card .worker-text h3 {
-    font-size: 20px;
-  }
-  /* Feedback CSS */
-  .feedback-section {
-    padding-bottom: 100px;
-  }
-  .feedback-section .feedback-slider .feedback-items {
-    max-width: 350px;
-  }
-  .feedback-section .feedback-slider .owl-prev {
-    left: -15px;
-    opacity: 1;
-  }
-  .feedback-section .feedback-slider .owl-next {
-    right: -15px;
-    opacity: 1;
-  }
-  .feedback-section .feedback-slider:hover .owl-prev {
-    left: -15px;
-  }
-  .feedback-section .feedback-slider:hover .owl-next {
-    right: -15px;
-  }
-  /* Company CSS */
-  .company-section {
-    margin-top: 100px;
-  }
-  /* Newsletter CSS */
-  .newsletter-section .newsletter-area .newsletter-form .default-btn {
-    position: relative;
-    right: 0;
-  }
-  .newsletter-section img {
-    right: 25px;
-    top: 30px;
-    max-width: 270px;
-  }
-  /*------------ Home Page One CSS End ------------*/
-  /*------------ Home Page Two CSS Start ------------*/
-  /* Track CSS */
-  .track-product {
-    padding-bottom: 100px;
-  }
-  /* Facilities CSS */
-  .facilities-section .facilities-text h2 {
-    font-size: 30px;
-  }
-  .facilities-section .facilities-text ul li {
-    font-size: 18px;
-  }
-  /* Company CSS */
-  .company-style-two {
+
+  .our-features-area .featur-item {
+    padding-right: 15px;
     margin-top: 0;
-    padding-top: 0;
   }
-  /*------------ Home Page Two CSS End ------------*/
-  /*------------ Home Page Three CSS Start ------------*/
-  /* Banner CSS */
-  .banner-style-three {
-    height: 100%;
-    padding: 150px 0 100px;
+
+  .our-features-area .featur-item .grid-item .item {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
   }
-  .banner-style-three .banner-text {
-    max-width: 475px;
+
+  .our-features-area .featur-item .grid-item:last-child {
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
   }
-  .banner-style-three .banner-text h1 {
-    font-size: 50px;
+
+  .our-features-area .featur-item .grid-item .item:last-child {
     margin-bottom: 30px;
   }
-  .banner-style-three .banner-text .theme-btn {
-    margin-bottom: 20px;
+
+  .our-features-area .featur-item .grid-item:last-child .item:last-child {
+    margin-bottom: 0;
   }
-  .banner-style-three .banner-text .theme-btn .default-btn {
-    padding: 15px 15px;
-    font-size: 15px;
+
+  .our-features-area .featur-item .grid-item .item h4 {
+    justify-content: center;
   }
-  .banner-style-three .banner-image {
-    max-width: 450px;
-  }
-  .banner-style-three .banner-shape {
+
+  .our-features-area .featur-item .grid-item .item h4 span {
     display: none;
   }
-  /* Testimonial CSS */
-  .feedback-style-three .feedback-slider-area .owl-next, .feedback-style-three .feedback-slider-area .owl-prev {
-    opacity: 1;
-    top: 35%;
-    width: 35px;
-    height: 35px;
-    font-size: 17px !important;
-    line-height: 35px !important;
+
+  .our-features-area .featur-item .grid-item .item i {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
   }
-  .feedback-style-three .feedback-slider-area .owl-prev {
-    left: 0;
-  }
-  .feedback-style-three .feedback-slider-area .owl-prev:hover {
-    left: 0px;
-  }
-  .feedback-style-three .feedback-slider-area .owl-next {
-    right: 0;
-  }
-  .feedback-style-three .feedback-slider-area .owl-next:hover {
-    right: 0px;
-  }
-  .feedback-style-three .feedback-slider-area:hover .owl-next {
-    right: 0;
-  }
-  .feedback-style-three .feedback-slider-area:hover .owl-prev {
-    left: 0;
-  }
-  /*------------ Home Page Three CSS End ------------*/
-  /*------------ Service Details Page CSS Start ------------*/
-  .company-style-three {
+
+  .feature-area .single-item:nth-child(2),
+  .feature-area .single-item:nth-child(3) {
     margin-top: 0;
   }
-  /*------------ Service Details Page CSS End ------------*/
-  /*------------ Blog Details Page CSS Start ------------*/
-  .blog-style-three .blog-card .blog-text h3 {
-    font-size: 20px;
+
+  .our-features-area .features-box .single-item .item {
+    box-shadow: 0 0 10px #cccccc;
+    text-align: center;
   }
-  .blog-details-area .blog-sidebar .blog-widget .post-item .post-info {
+
+  .our-features-area .features-box .single-item .item .content i {
+    opacity: 1;
+    padding-left: 20px;
+  }
+
+  .dark-layout .our-features-area .features-box .single-item .item {
+    box-shadow: inherit;
+    background: #101c3d;
+  }
+
+  /* Services */
+  .services-area .services-box {
+    text-align: center;
+  }
+
+  .services-area .services-box .services-items {
+    margin-top: 20px;
+  }
+
+  .services-area .services-box .item i {
+    margin-top: 10px;
+  }
+
+  .services-area .services-box .item i::after {
+    right: -15px;
+  }
+
+  .services-area .services-box .heading-side {
+    padding-right: 0;
+  }
+
+  .services-area .shape-fixed {
+    display: none;
+  }
+
+  .services-area .services-box .item-grid:first-child {
+    margin-top: 0;
+  }
+
+  .main-services-area {
+    text-align: center;
+  }
+
+  .main-services-box .single-item {
+    margin-bottom: 30px;
+    border: none !important;
+  }
+
+  .main-services-box .item {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main-services-box .item .icon {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  /* Services Details */
+  .services-details-items .services-sidebar {
+    padding-right: 15px;
+    margin-top: 50px;
+  }
+
+  .services-details-area .features .col-lg-6 {
+    margin-top: 30px;
+  }
+
+  .services-details-area .features .col-lg-6:first-child {
+    margin-top: 0;
+  }
+
+  .services-list-items .item {
+    border: none;
+    padding: 60px 35px;
+    background: #ffffff;
+    box-shadow: 0 0 1.5625rem 0 rgb(54 186 254 / 10%);
+    }
+
+    .services-list-items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .services-list-items .single-item {
+        margin-bottom: 30px;
+    }
+
+    .services-list-items .single-item:last-child {
+      margin-bottom: 0;
+    }
+
+
+  /* Achivement  */
+
+  .achivement-area .achivement-box {
+    background: transparent;
+    box-shadow: inherit;
+  }
+
+  .achivement-area.shape-layout .achivement-box .left-content .wedo-carousel {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .wedo-carousel.owl-carousel.owl-theme .owl-dots {
+    margin-top: 0;
+  }
+
+  .achivement-area .left-content ul li {
+    display: block;
+    text-align: center;
+  }
+
+  .achivement-area .left-content ul li i {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .achivement-area.shape-layout .skill-items::after {
+    width: 100%;
+  }
+
+  .achivement-area.shape-layout .skill-items {
+    padding: 50px 30px;
+  }
+
+  /* Choose Us */
+
+  .why-choose-us-area .inner-items .info {
+    padding: 50px 30px;
+  }
+
+  /* Choose Us Version Two */
+
+  .choose-us-area {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .choose-us-area .statistics {
+    display: inline-block;
+  }
+
+  .choose-us-area .thumb {
+    height: 300px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .choose-us-area .info {
+    max-width: 100%;
+    padding-bottom: 50px;
+    padding-top: 0;
+    padding-left: 15px;
+  }
+
+  .choose-us-area .fun-factors {
+    display: none;
+  }
+
+  /* Faq Area */
+  .faq-area .faq-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+
+  .faq-area .info ul li {
+    width: 100%;
+  }
+
+  /* Boosting */
+
+  .boosting-area {
     padding-top: 0;
   }
-  /*------------ Blog Details Page CSS End ------------*/
-}
 
-@media (min-width: 1800px) {
-  .banner-style-three .banner-image {
-    right: 100px;
-    max-width: 650px;
-    border-radius: 10px;
+  .boosting-area .inner-items {
+    top: 0;
+    margin-bottom: 0;
+    padding: 50px 30px;
+  }
+
+  .boosting-area .video {
+    display: none;
+  }
+
+
+  /* Team Area */
+  .team-area .team-items .thumb .social li {
+    margin-top: 0;
+    display: inline-block;
+  }
+
+  .team-area .team-items .thumb .social ul {
+    right: 50%;
+    transform: translateX(50%);
+    min-width: 80%;
+    bottom: -25px;
+  }
+
+  .team-area .team-items .info {
+    padding-top: 50px;
+  }
+
+  .team-area .team-items .single-item .item {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .team-area .team-items .single-item:nth-child(2) .item,
+  .team-area .team-items .single-item:nth-child(5) .item {
+    margin: 0;
+  }
+
+  .team-area .team-items .single-item:last-child .item,
+  .team-area .team-items .single-item:nth-child(3) .item {
+    margin-left: 0;
+  }
+
+  .team-area.default-padding-bottom.bottom-less {
+    padding-bottom: 20px;
+  }
+
+  /* Team Single */
+
+  .team-single-area .bottom-info {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .team-single-area .right-info {
+    padding-left: 15px;
+    margin-top: 55px;
+  }
+
+  .team-single-area .thumb .social ul {
+    right: auto;
+    bottom: -30px;
+    left: 30px;
+  }
+
+  .team-single-area .bottom-info .about-area.reverse {
+    padding-left: 15px;
+    margin-top: 30px;
+  }
+
+
+  /* Fun Fact */
+  .fun-fact-area .inner-items .item {
+      margin-top: 50px;
+  }
+
+  .fun-fact-area .inner-items .item:first-child {
+      margin-top: 0;
+  }
+
+  .fun-fact-area .inner-items {
+    top: 0;
+    margin-bottom: 0;
+    margin-top: -50px;
+  }
+
+
+  /* Free Trial */
+  .free-trial-area {
+    padding-top: 50px;
+  }
+
+  .free-trial-area .thumb {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .dark-layout .free-trial-area .left-info h2 {
+    text-shadow: inherit;
+  }
+
+  .free-trial-area .left-info h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .free-trial-area .left-info h2 span {
+    font-size: 36px;
+    line-height: 1.2;
+    position: inherit;
+    margin: 0;
+  }
+
+  .free-trial-area .left-info {
+    padding-right: 15px;
+  }
+
+  .free-trial-area::after {
+    background: transparent !important; 
+  }
+
+
+  /* Brand Area */
+
+  .brand-area {
+    text-align: center;
+  }
+
+  .brand-area .brand-items {
+    padding: 50px 30px;
+    padding-right: 30px;
+  }
+
+  .brand-area .brand-items::after {
+    width: 100%;
+  }
+
+  .brand-area .brand-items .info {
+    padding-right: 15px;
+    border-right: none;
+    margin-bottom: 20px;
+  }
+
+  .brand-area .brand-items .brand {
+    padding-left: 15px;
+    margin-top: 0;
+  }
+
+  .brand-area .brand-items .brand .col-lg-4 {
+    float: left;
+    width: 50%;
+  }
+
+  /* Partner */
+
+  .partner-area .partner-items {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+
+  .partner-area .partner-items::after {
+    display: none;
+  }
+
+  /* Pricing */
+
+  .pricing-area .pricing {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .pricing.pricing-simple .single-item {
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .pricing.pricing-simple .single-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .pricing-item.active {
+    transform: inherit;
+    z-index: 1;
+  }
+
+  /* Portfolio */
+  .portfolio-area.default-padding {
+    padding-bottom: 35px;
+  }
+
+  .portfolio-area.gallery-carousel {
+    padding-bottom: 50px;
+  }
+
+  .portfolio-area .portfolio-items.colums-2 .pf-item,
+  .portfolio-area .portfolio-items.colums-3 .pf-item,
+  .portfolio-area .portfolio-items.colums-4 .pf-item {
+    width: 100%;
+  }
+
+  .portfolio-items-area .mix-item-menu button {
+    margin: 10px;
+    border: 2px solid #e7e7e7;
+    padding: 10px 30px;
+  }
+
+  /* Project Details */
+  .project-details-area .project-info {
+    position: inherit;
+    left: auto;
+    right: auto;
+    top: auto;
+    width: 100%;
+    padding: 50px 30px;
+    bottom: auto;
+    margin-top: 30px;
+  }
+
+  .project-details-area .top-info {
+    margin-bottom: 30px;
+  }
+
+
+  /* Blog */
+  .blog-area .blog-thin-colums .thumb {
+    margin-bottom: 30px;
+  }
+
+  .blog-area .blog-items .thumb .date {
+    left: 30px;
+    right: auto;
+  }
+
+  .blog-area .blog-items .footer-meta ul {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .blog-area .blog-items .footer-meta ul li:last-child {
+    display: none;
+  }
+
+  .blog-area .footer-meta ul li::after {
+    display: none;
+  }
+
+  .blog-area .pagi-area .pagination {
+    display: block;
+  }
+
+  .blog-area .pagi-area .pagination li {
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  .blog-area .blog-content .post-tags,
+  .blog-area .blog-content .share {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 15px;
+  }
+
+  .blog-area .blog-content .share .social {
+    margin-top: 10px;
+  }
+
+  .blog-area.left-sidebar .blog-content {
+    float: none;
+  }
+
+  .blog-area .sidebar .sidebar-item.add-banner .sidebar-info {
+    padding: 50px 30px;
+  }
+
+  .blog-area.left-sidebar .sidebar,
+  .blog-area.right-sidebar .sidebar {
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  .blog-area.right-sidebar .sidebar {
+    padding-left: 15px;
+  }
+
+  .blog-area.left-sidebar .sidebar {
+    padding-right: 15px;
+  }
+
+  .blog-area.single .post-pagi-area {
+    text-align: center;
+  }
+
+  .blog-area.single .post-pagi-area a {
+    margin: 5px;
+  }
+
+  .blog-area.single .post-pagi-area a:last-child {
+    float: none;
+  }
+
+  .comments-list .commen-item.reply {
+    margin-left: 0;
+  }
+
+  .comments-list .commen-item .content,
+  .comments-list .commen-item .avatar {
+    display: block;
+    text-align: center;
+  }
+
+  .comments-list .commen-item .avatar {
+    min-width: 100px;
+    margin: auto;
+    height: auto;
+  }
+
+  .comments-list .commen-item .content {
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 50px;
+  }
+
+  .comments-list .commen-item .content h3,
+  .comments-list .commen-item .content h4,
+  .comments-list .commen-item .content h5 {
+    display: block;
+  }
+
+  .comments-list .commen-item .content .reply {
+    margin-top: 15px;
+  }
+
+  .comments-list .commen-item .content .title span a {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .blog-area .comments-area {
+    text-align: center;
+  }
+
+  .comments-list .commen-item .content .title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .comments-list .commen-item {
+    margin-bottom: 50px;
+    display: block;
+  }
+
+  .blog-area .contact-comments .comments {
+    margin: 0;
+  }
+
+  .blog-area .comments-form {
+    margin-top: 50px;
+  }
+
+  /* Contact */
+
+  .contact-area .fixed-bg.left {
+    display: none;
+  }
+
+  .contact-area .contact-items::after {
+    display: none;
+  }
+
+  .contact-area .contact-items .form-items {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #cccccc;
+  }
+
+  .dark-layout .bg-gray.contact-area .contact-items::after {
+    display: none;
+  }
+
+  .dark-layout .contact-area .contact-items .form-items {
+    background: #0D152E;
+    box-shadow: inherit;
+  }
+
+  .contact-area .left-info ul.social {
+    text-align: center;
+  }
+
+  .contact-area .left-info .item {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-area .left-info .item i {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-area .left-info .social li {
+    margin: 0 10px;
+  }
+
+  .google-maps iframe {
+    height: 350px;
+  }
+
+  /* Error Page */
+  .error-page-area,
+  .error-page-area div {
+    height: auto;
+  }
+
+  .error-page-area div.error-box {
+    position: inherit;
+    top: 0;
+    transform: inherit;
+  }
+
+  .error-page-area .error-box h1 {
+    display: none;
+  }
+
+  /* Footer */
+  footer .footer-bottom {
+    text-align: center;
+  }
+
+  footer .footer-bottom form {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    width: auto;
+    margin: 30px auto auto;
+  }
+
+  footer .footer-bottom .logo img {
+    margin-top: 30px;
+    display: none;
+  }
+
+  footer .default-padding {
+    padding-top: 0;
   }
 }
-/*# sourceMappingURL=responsive.css.map */
+
+/* Max Wide Mobile Layout: 600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  /* Portfolio */
+  .portfolio-area .portfolio-items.colums-2 .pf-item,
+  .portfolio-area .portfolio-items.colums-3 .pf-item,
+  .portfolio-area .portfolio-items.colums-4 .pf-item {
+    width: 50%;
+  }
+}
+
+/* Custom  Layout: 400px. */
+@media only screen and (max-width: 400px) {
+  .attr-nav > ul > li.search {
+    display: none;
+  }
+
+  .navbar.navbar-fixed .attr-nav > ul > li {
+    padding: 36px 0 !important;
+  }
+
+  /* Projects Details */
+
+  .project-details-area .project-info {
+    text-align: center;
+  }
+
+  .project-details-area .project-info > ul {
+    display: block;
+  }
+
+  .project-details-area .project-info > ul li {
+    margin-top: 15px;
+  }
+
+  .project-details-area .project-info > ul li:first-child {
+    margin-top: 0;
+  }
+
+}
+
+/* Custom  Layout: 400px. */
+@media only screen and (min-width: 400px) {
+
+  .about-area .about-items .content-inner {
+    display: block;
+  }
+
+  .about-area .about-items .content-inner .col-lg-6 {
+    float: left;
+    width: 50%;
+  }
+
+  .about-area .about-items .content-inner h2 {
+    margin-bottom: 25px;
+  }
+
+  .about-content-area .top-info .row .col-lg-6 {
+    float: left;
+    width: 50%;
+  }
+
+}
+
+/* Custom  Layout: 600px. */
+@media only screen and (max-width: 600px) {
+
+  /* Why Choose Us */
+  .why-choose-us-area {
+    text-align: center;
+  }
+
+  .why-choose-us-area .info ul li {
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  /* Why Choose Us Version Two  */
+  .choose-us-area .fun-factors {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .choose-us-area .fun-factors .fun-fact {
+      display: block;
+      float: none;
+      margin-right: 0;
+      border: none;
+      padding-right: 0;
+      margin-top: 30px;
+  }
+
+  .choose-us-area .fun-factors .counter {
+      justify-content: center;
+  }
+  
+
+}
+
+
+/* Custom  Layout: 600px. */
+@media only screen and (max-width: 600px) {
+  .attr-nav ul.social {
+    display: none;
+  }
+
+  .attr-nav > ul > li {
+    padding: 32px 0 !important;
+  }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .side {
+    padding: 50px;
+    width: 400px;
+  }
+
+  /* Blog */
+
+  .comments-list .commen-item .content {
+    padding-bottom: 0;
+  }
+
+  .comments-list .commen-item .avatar {
+    margin: 0;
+  }
+
+  .comments-list .commen-item .content .title span a {
+    margin-left: 30px;
+    position: inherit;
+    left: inherit;
+    transform: inherit;
+  }
+
+  .blog-area .blog-items .footer-meta ul li:last-child {
+    display: inline-block;
+  }
+
+  .blog-area .footer-meta ul li::after {
+    display: inline-block;
+  }
+
+  .blog-area .comments-area {
+    text-align: left;
+  }
+
+  .comments-list .commen-item {
+    display: flex;
+  }
+
+  .comments-list .commen-item .content {
+    width: auto;
+    margin-top: 0;
+    margin-left: 25px;
+    text-align: left;
+  }
+
+  .comments-list .commen-item .content .title {
+    margin-top: 0;
+  }
+
+  .comments-list .commen-item .content .title {
+    margin-top: 0;
+  }
+
+  .comments-list .commen-item .content h3,
+  .comments-list .commen-item .content h4,
+  .comments-list .commen-item .content h5 {
+    display: flex;
+  }
+
+  .comments-list .commen-item .content .reply {
+    margin-top: 0;
+  }
+
+  .blog-area.single .post-pagi-area {
+    text-align: inherit;
+  }
+
+  .blog-area.single .post-pagi-area a:last-child {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* global reset - start */
+  .order-last {
+    order: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* global reset - start */
+  .services-details-area .order-last {
+    order: 13;
+  }
+}
+
+
+/* Custom  Layout: 500px. */
+@media only screen and (max-width: 500px) {
+  .choose-us-area .statistics .item {
+      text-align: center;
+      display: block;
+      margin-right: 0;
+      border-right: none !important;
+      padding-right: 0;
+      float: none;
+      margin-bottom: 40px;
+  }
+
+  /* Project Details */
+  .project-details-area .project-info .share {
+    display: block;
+    text-align: center;
+  }
+
+  .project-details-area .project-info .share h4 {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project-details-area .project-info .share ul li {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+}
